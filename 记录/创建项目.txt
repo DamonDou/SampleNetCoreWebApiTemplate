@@ -1,0 +1,30 @@
+1. 使用 dotnet new sln -n slnname  创建解决方案文件
+
+2. 使用 dotnet new classlib -n projectname 创建项目文件
+
+3. 使用 dotnet sln slnname add projectname/projectname.csproj 添加项目到解决方案文件
+
+dotnet sln AspNetCoreApiTemplate.sln add 
+AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj
+AspNetCoreApiTemplate.Core\AspNetCoreApiTemplate.Core.csproj
+AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj 
+AspNetCoreApiTemplate.LogicService\AspNetCoreApiTemplate.LogicService.csproj 
+AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj 
+AspNetCoreApiTemplate.WebApi\AspNetCoreApiTemplate.WebApi.csproj
+
+4. 使用dotnet add reference projectname/projectname.csproj 添加项目引用
+
+移除引用
+dotnet remove reference ..\AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj
+
+core 
+dotnet add reference ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj 
+
+DataAccess
+dotnet add reference ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj
+
+LogicService 
+dotnet add reference ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj ..\AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj
+
+WebApi
+dotnet add reference ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj ..\AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj ..\AspNetCoreApiTemplate.LogicService\AspNetCoreApiTemplate.LogicService.csproj
