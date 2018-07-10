@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SampleNetCoreWebApiTemplate.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController">
+            <summary>
+             示例
+            </summary>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get">
+            <summary>
+             查询所有数据
+            </summary>
+            <returns>字符串集合</returns>
+            <remarks>
+                POST /Todo
+                {
+                   "id": 1,
+                   "name": "Item1",
+                   "isComplete": true
+                }    
+            </remarks>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+             通过ID查询数据
+            </summary>
+            <param name="id">id</param>
+            <returns>数据</returns>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Post(System.String)">
+            <summary>
+             插入数据
+            </summary>
+            <param name="value">数据</param>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+             更新数据
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+             删除数据
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:SampleNetCoreWebApiTemplate.WebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SampleNetCoreWebApiTemplate.WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:SampleNetCoreWebApiTemplate.WebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:SampleNetCoreWebApiTemplate.WebApi.SwaggerHelp.SwaggerDocTag">
+            <summary>
+             用于生成Controller 的说明
+            </summary>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.SwaggerHelp.SwaggerDocTag.GetControllerDesc">
+            <summary>
+            从xml注释中读取控制器注释
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

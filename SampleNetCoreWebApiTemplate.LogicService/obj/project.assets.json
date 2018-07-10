@@ -234,11 +234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\资料\\项目模板\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate.LogicService\\SampleNetCoreWebApiTemplate.LogicService.csproj",
+      "projectUniqueName": "f:\\资料\\项目模板\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate.LogicService\\SampleNetCoreWebApiTemplate.LogicService.csproj",
       "projectName": "SampleNetCoreWebApiTemplate.LogicService",
-      "projectPath": "F:\\资料\\项目模板\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate.LogicService\\SampleNetCoreWebApiTemplate.LogicService.csproj",
+      "projectPath": "f:\\资料\\项目模板\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate.LogicService\\SampleNetCoreWebApiTemplate.LogicService.csproj",
       "packagesPath": "C:\\Users\\douxinyu.APJ\\.nuget\\packages\\",
-      "outputPath": "F:\\资料\\项目模板\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate.LogicService\\obj\\",
+      "outputPath": "f:\\资料\\项目模板\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate\\SampleNetCoreWebApiTemplate.LogicService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

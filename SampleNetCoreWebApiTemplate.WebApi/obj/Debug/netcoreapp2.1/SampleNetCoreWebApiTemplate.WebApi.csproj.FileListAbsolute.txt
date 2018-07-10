@@ -23,3 +23,5 @@ F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\S
 F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\obj\Debug\netcoreapp2.1\SampleNetCoreWebApiTemplate.WebApi.csproj.CopyComplete
 F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\obj\Debug\netcoreapp2.1\SampleNetCoreWebApiTemplate.WebApi.dll
 F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\obj\Debug\netcoreapp2.1\SampleNetCoreWebApiTemplate.WebApi.pdb
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\SampleNetCoreWebApiTemplate.WebApi.xml
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\obj\Debug\netcoreapp2.1\SampleNetCoreWebApiTemplate.WebApi.xml

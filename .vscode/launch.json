@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/AspNetCoreApiTemplate.WebApi/bin/Debug/netcoreapp2.0/AspNetCoreApiTemplate.WebApi.dll",
+            "program": "${workspaceFolder}/SampleNetCoreWebApiTemplate.WebApi/bin/Debug/netcoreapp2.1/SampleNetCoreWebApiTemplate.WebApi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/AspNetCoreApiTemplate.WebApi",
+            "cwd": "${workspaceFolder}/SampleNetCoreWebApiTemplate.WebApi",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
