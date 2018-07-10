@@ -33,7 +33,7 @@ namespace SampleNetCoreWebApiTemplate.WebApi.SwaggerHelp
                 return tagList;
 
             XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.LoadXml(xmlpath);
+            xmlDoc.Load(xmlpath);
 
             string memberName = string.Empty;//xml三级节点的name属性值
             string controllerName = string.Empty;//控制器完整名称
