@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleNetCoreWebApiTemplate.Common\SampleNetCoreWebApiTemplate.Common.csproj" />
+    <ProjectReference Include="..\SampleNetCoreWebApiTemplate.Model\SampleNetCoreWebApiTemplate.Model.csproj" />
+    <ProjectReference Include="..\SampleNetCoreWebApiTemplate.DataAccess\SampleNetCoreWebApiTemplate.DataAccess.csproj" />
+    <ProjectReference Include="..\SampleNetCoreWebApiTemplate.LogicService\SampleNetCoreWebApiTemplate.LogicService.csproj" />
+    <ProjectReference Include="..\SampleNetCoreWebApiTemplate.Core\SampleNetCoreWebApiTemplate.Core.csproj" />
+  </ItemGroup>
+
+</Project>

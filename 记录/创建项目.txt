@@ -2,29 +2,32 @@
 
 2. 使用 dotnet new classlib -n projectname 创建项目文件
 
+dotnet new classlib -n SampleNetCoreWebApiTemplate.Common
+dotnet new classlib -n SampleNetCoreWebApiTemplate.Core 
+dotnet new classlib -n SampleNetCoreWebApiTemplate.DataAccess 
+dotnet new classlib -n SampleNetCoreWebApiTemplate.LogicService 
+dotnet new classlib -n SampleNetCoreWebApiTemplate.Model 
+dotnet new webapi -n SampleNetCoreWebApiTemplate.WebApi
+
+
+
 3. 使用 dotnet sln slnname add projectname/projectname.csproj 添加项目到解决方案文件
 
-dotnet sln AspNetCoreApiTemplate.sln add 
-AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj
-AspNetCoreApiTemplate.Core\AspNetCoreApiTemplate.Core.csproj
-AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj 
-AspNetCoreApiTemplate.LogicService\AspNetCoreApiTemplate.LogicService.csproj 
-AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj 
-AspNetCoreApiTemplate.WebApi\AspNetCoreApiTemplate.WebApi.csproj
+dotnet sln SampleNetCoreWebApiTemplate.sln add SampleNetCoreWebApiTemplate.Common\SampleNetCoreWebApiTemplate.Common.csproj SampleNetCoreWebApiTemplate.Core\SampleNetCoreWebApiTemplate.Core.csproj SampleNetCoreWebApiTemplate.DataAccess\SampleNetCoreWebApiTemplate.DataAccess.csproj SampleNetCoreWebApiTemplate.LogicService\SampleNetCoreWebApiTemplate.LogicService.csproj SampleNetCoreWebApiTemplate.Model\SampleNetCoreWebApiTemplate.Model.csproj SampleNetCoreWebApiTemplate.WebApi\SampleNetCoreWebApiTemplate.WebApi.csproj
 
 4. 使用dotnet add reference projectname/projectname.csproj 添加项目引用
 
 移除引用
-dotnet remove reference ..\AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj
+dotnet remove reference ..\SampleNetCoreWebApiTemplate.DataAccess\SampleNetCoreWebApiTemplate.DataAccess.csproj
 
 core 
-dotnet add reference ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj 
+dotnet add reference ..\SampleNetCoreWebApiTemplate.Model\SampleNetCoreWebApiTemplate.Model.csproj ..\SampleNetCoreWebApiTemplate.Common\SampleNetCoreWebApiTemplate.Common.csproj 
 
 DataAccess
-dotnet add reference ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj
+dotnet add reference ..\SampleNetCoreWebApiTemplate.Common\SampleNetCoreWebApiTemplate.Common.csproj ..\SampleNetCoreWebApiTemplate.Model\SampleNetCoreWebApiTemplate.Model.csproj
 
 LogicService 
-dotnet add reference ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj ..\AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj
+dotnet add reference ..\SampleNetCoreWebApiTemplate.Model\SampleNetCoreWebApiTemplate.Model.csproj ..\SampleNetCoreWebApiTemplate.Common\SampleNetCoreWebApiTemplate.Common.csproj ..\SampleNetCoreWebApiTemplate.DataAccess\SampleNetCoreWebApiTemplate.DataAccess.csproj
 
 WebApi
-dotnet add reference ..\AspNetCoreApiTemplate.Common\AspNetCoreApiTemplate.Common.csproj ..\AspNetCoreApiTemplate.Model\AspNetCoreApiTemplate.Model.csproj ..\AspNetCoreApiTemplate.DataAccess\AspNetCoreApiTemplate.DataAccess.csproj ..\AspNetCoreApiTemplate.LogicService\AspNetCoreApiTemplate.LogicService.csproj
+dotnet add reference ..\SampleNetCoreWebApiTemplate.Common\SampleNetCoreWebApiTemplate.Common.csproj ..\SampleNetCoreWebApiTemplate.Model\SampleNetCoreWebApiTemplate.Model.csproj ..\SampleNetCoreWebApiTemplate.DataAccess\SampleNetCoreWebApiTemplate.DataAccess.csproj ..\SampleNetCoreWebApiTemplate.LogicService\SampleNetCoreWebApiTemplate.LogicService.csproj ..\SampleNetCoreWebApiTemplate.Core\SampleNetCoreWebApiTemplate.Core.csproj

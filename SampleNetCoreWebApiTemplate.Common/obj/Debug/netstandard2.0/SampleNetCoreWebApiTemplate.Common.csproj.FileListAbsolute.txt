@@ -1,0 +1,9 @@
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.deps.json
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.dll
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.pdb
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.csprojAssemblyReference.cache
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.csproj.CoreCompileInputs.cache
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.AssemblyInfoInputs.cache
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.AssemblyInfo.cs
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.dll
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Common\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.pdb

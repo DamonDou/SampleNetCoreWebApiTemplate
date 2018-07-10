@@ -1,0 +1,14 @@
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.deps.json
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.dll
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.pdb
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.dll
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Model.dll
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Model.pdb
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\bin\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Common.pdb
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.csprojAssemblyReference.cache
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.csproj.CoreCompileInputs.cache
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.AssemblyInfoInputs.cache
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.AssemblyInfo.cs
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.csproj.CopyComplete
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.dll
+F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.Core\obj\Debug\netstandard2.0\SampleNetCoreWebApiTemplate.Core.pdb
