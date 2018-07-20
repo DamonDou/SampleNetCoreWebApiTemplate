@@ -14,6 +14,9 @@ using Swashbuckle.AspNetCore.Swagger;
 using System.Reflection;
 using System.IO;
 using SampleNetCoreWebApiTemplate.WebApi.SwaggerHelp;
+using SampleNetCoreWebApiTemplate.DataAccess;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace SampleNetCoreWebApiTemplate.WebApi
 {
@@ -26,9 +29,11 @@ namespace SampleNetCoreWebApiTemplate.WebApi
         /// 
         /// </summary>
         /// <param name="configuration"></param>
-        public Startup(IConfiguration configuration)
+        /// <param name="hostingEnvironment"></param>
+        public Startup(IConfiguration configuration, IHostingEnvironment hostingEnvironment)
         {
             Configuration = configuration;
+            HostingEnvironment = hostingEnvironment;
         }
 
         /// <summary>
@@ -37,6 +42,8 @@ namespace SampleNetCoreWebApiTemplate.WebApi
         /// <value></value>
         public IConfiguration Configuration { get; }
 
+        public IHostingEnvironment HostingEnvironment { get; }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         /// <summary>
         /// 
@@ -44,8 +51,40 @@ namespace SampleNetCoreWebApiTemplate.WebApi
         /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            // 根据不同环境对服务进行配置
+            if (HostingEnvironment.IsDevelopment())
+            {
 
+            }
+            else
+            {
+
+            }
+
+            // 添加自定义配置文件,可选文件，修改后重新加载
+            var builder = new ConfigurationBuilder()
+                            .SetBasePath(Directory.GetCurrentDirectory())
+                            .AddJsonFile("appsettingCustomer.json", true, true);
+
+            var appsettingCustomer = builder.Build();
+
+            // 获取配置文件中链接字符串，待验证会不会根据环境变量加载不同配置
+            services.AddDbContext<ColorDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultDBConnectString")));
+
+            // 依赖注册
+
+            // 每次请求时创建
+            //services.AddTransient<IEmailSender, AuthMessageSender>();
+
+            services.AddTransient<IDbSession,DbSession>();
+
+            // 每个请求一次的方式创建
+            // services.AddScoped<IOperationScoped, Operation>();
+
+            // 在第一次被请求 或者 ConfigureServices方法执行的时候被创建
+            // services.AddSingleton<IOperationSingleton, Operation>();
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>

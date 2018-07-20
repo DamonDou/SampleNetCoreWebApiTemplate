@@ -72,11 +72,12 @@
             
             </summary>
         </member>
-        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
             <summary>
             
             </summary>
             <param name="configuration"></param>
+            <param name="hostingEnvironment"></param>
         </member>
         <member name="P:SampleNetCoreWebApiTemplate.WebApi.Startup.Configuration">
             <summary>
