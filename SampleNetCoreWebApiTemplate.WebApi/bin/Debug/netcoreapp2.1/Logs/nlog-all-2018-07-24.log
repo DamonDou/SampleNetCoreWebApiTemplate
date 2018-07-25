@@ -1,0 +1,48 @@
+2018-07-24 17:14:20.8813||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-24 17:14:22.5851||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-24 17:14:23.3757|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-24 17:14:23.3757|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-24 17:14:23.4328|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.2527ms 200  
+2018-07-24 17:14:23.7269|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-24 17:14:23.7405|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-24 17:14:23.7467|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7351ms. 
+2018-07-24 17:14:23.7620|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-24 17:14:23.7977|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 48.2631ms 
+2018-07-24 17:14:23.8165|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 441.8357ms 200 application/json; charset=utf-8 
+2018-07-24 17:14:28.1695|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-24 17:14:28.2105|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.0525ms 200 text/html 
+2018-07-24 17:14:28.8048|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-24 17:14:29.4977|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 692.9635ms 200 application/json;charset=utf-8 
+2018-07-24 17:45:27.5894||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-24 17:45:28.8910||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-24 17:45:29.8047|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-24 17:45:29.8047|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-24 17:45:29.8711|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.3898ms 200  
+2018-07-24 17:45:30.1225|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-24 17:45:30.1355|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-24 17:45:30.1355|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6591ms. 
+2018-07-24 17:45:30.1533|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-24 17:45:30.1714|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 38.376ms 
+2018-07-24 17:45:30.1865|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 382.9001ms 200 application/json; charset=utf-8 
+2018-07-24 17:45:34.2403|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-24 17:45:34.2791|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.6978ms 200 text/html 
+2018-07-24 17:45:34.8387|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-24 17:45:35.1313|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 292.6522ms 200 application/json;charset=utf-8 
+2018-07-24 17:45:40.4286|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUserName   
+2018-07-24 17:45:40.4670|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUserName", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-24 17:45:40.6349|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-24 17:45:40.6349||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName 
+2018-07-24 17:45:40.8971|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.1-rtm-30846 initialized 'ColorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2018-07-24 17:45:41.6557|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1019.9245ms. 
+2018-07-24 17:45:41.6663|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2018-07-24 17:45:41.6663|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) in 1206.9766ms 
+2018-07-24 17:45:41.6896|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1261.013ms 200 application/json; charset=utf-8 
+2018-07-24 17:45:47.7572|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-24 17:45:47.7692|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-24 17:45:47.7692|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-24 17:45:47.7766||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName 
+2018-07-24 17:45:47.7766|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.1-rtm-30846 initialized 'ColorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2018-07-24 17:45:48.1300|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 357.602ms. 
+2018-07-24 17:45:48.1300|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[SampleNetCoreWebApiTemplate.Model.ViewModel.UserViewModel, SampleNetCoreWebApiTemplate.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2018-07-24 17:45:48.1512|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 381.073ms 
+2018-07-24 17:45:48.1512|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 394.9901ms 200 application/json; charset=utf-8 

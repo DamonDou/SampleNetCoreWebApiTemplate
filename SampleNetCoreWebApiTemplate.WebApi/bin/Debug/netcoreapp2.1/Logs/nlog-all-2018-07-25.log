@@ -1,0 +1,581 @@
+2018-07-25 13:33:42.4958||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 13:33:47.3206||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 13:33:52.3815|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 13:33:52.3815|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 13:33:52.6607|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 253.9587ms 200  
+2018-07-25 13:33:53.6648|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:33:53.6770|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 13:33:53.6770|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7708ms. 
+2018-07-25 13:33:53.6992|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 13:33:53.9521|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 283.2109ms 
+2018-07-25 13:33:53.9521|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1598.485ms 200 application/json; charset=utf-8 
+2018-07-25 13:33:54.7137|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/favicon.ico   
+2018-07-25 13:33:54.7137|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7725ms 404  
+2018-07-25 13:34:00.3162|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 13:34:00.8697|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 553.5332ms 200 text/html 
+2018-07-25 13:34:02.8923|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 13:34:04.2293|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1337.0872ms 200 application/json;charset=utf-8 
+2018-07-25 13:34:11.4658|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUserName   
+2018-07-25 13:34:11.5205|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUserName", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:34:12.6275|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) in 1106.1503ms 
+2018-07-25 13:34:12.6582|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-25 13:34:13.4122|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1946.4149ms 500 text/html; charset=utf-8 
+2018-07-25 13:50:33.3402||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 13:50:34.8285||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 13:50:35.5797|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 13:50:35.5797|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 13:50:35.6633|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.8644ms 200  
+2018-07-25 13:50:35.9443|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:50:35.9590|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 13:50:35.9590|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.1828ms. 
+2018-07-25 13:50:35.9879|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 13:50:36.0029|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 53.0789ms 
+2018-07-25 13:50:36.0134|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 435.549ms 200 application/json; charset=utf-8 
+2018-07-25 13:50:42.9004|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 13:50:42.9363|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.934ms 200 text/html 
+2018-07-25 13:50:42.9865|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger-ui.css   
+2018-07-25 13:50:43.3977|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2018-07-25 13:50:43.3977|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 419.0502ms 200 text/css 
+2018-07-25 13:50:44.0701|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 13:50:44.3616|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 291.4389ms 200 application/json;charset=utf-8 
+2018-07-25 13:50:50.0981|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 13:50:50.1133|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:52:43.1741||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 13:52:44.5392||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 13:52:45.2489|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 13:52:45.2489|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 13:52:45.3363|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 81.0933ms 200  
+2018-07-25 13:52:45.6060|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:52:45.6186|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 13:52:45.6186|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5329ms. 
+2018-07-25 13:52:45.6361|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 13:52:45.6505|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 37.992ms 
+2018-07-25 13:52:45.6636|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 415.7959ms 200 application/json; charset=utf-8 
+2018-07-25 13:52:50.2304|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 13:52:50.2560|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.8965ms 200 text/html 
+2018-07-25 13:52:50.5899|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 13:52:50.9435|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 353.5712ms 200 application/json;charset=utf-8 
+2018-07-25 13:52:57.5421|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 13:52:57.5654|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:52:57.7121||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|初始化完成 
+2018-07-25 13:53:56.0360||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 13:53:57.6891||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 13:53:58.5732|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 13:53:58.5732|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 13:53:58.6672|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.3007ms 200  
+2018-07-25 13:53:59.0139|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:53:59.0297|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 13:53:59.0368|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5138ms. 
+2018-07-25 13:53:59.0523|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 13:53:59.0804|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 57.7286ms 
+2018-07-25 13:53:59.0957|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 523.999ms 200 application/json; charset=utf-8 
+2018-07-25 13:54:02.2944|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 13:54:02.3192|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.8353ms 200 text/html 
+2018-07-25 13:54:03.5591|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 13:54:03.8208|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 261.7547ms 200 application/json;charset=utf-8 
+2018-07-25 13:54:08.7340|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 13:54:08.7561|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 13:54:08.9350|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 13:54:08.9802||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 13:54:10.5749|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.1-rtm-30846 initialized 'ColorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2018-07-25 13:54:12.2146|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3278.606ms. 
+2018-07-25 13:54:12.2146|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[SampleNetCoreWebApiTemplate.Model.ViewModel.UserViewModel, SampleNetCoreWebApiTemplate.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2018-07-25 13:54:12.2375|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 3480.4172ms 
+2018-07-25 13:54:12.2494|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3515.2604ms 200 application/json; charset=utf-8 
+2018-07-25 14:06:44.0654||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:06:45.7836||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:06:46.5849|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:06:46.5849|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:06:46.6650|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76.948ms 200  
+2018-07-25 14:06:47.0314|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:06:47.0501|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:06:47.0583|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7368ms. 
+2018-07-25 14:06:47.0739|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:06:47.1003|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 55.8381ms 
+2018-07-25 14:06:47.1003|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 527.5285ms 200 application/json; charset=utf-8 
+2018-07-25 14:06:47.1992|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/favicon.ico   
+2018-07-25 14:06:47.1992|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.1563ms 404  
+2018-07-25 14:07:54.3853||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:07:55.6945||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:07:56.4680|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:07:56.4680|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:07:56.5291|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 58.3072ms 200  
+2018-07-25 14:07:56.8108|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:07:56.8332|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:07:56.8481|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.2973ms. 
+2018-07-25 14:07:56.8631|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:07:56.8864|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 63.5971ms 
+2018-07-25 14:07:56.9006|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 433.6048ms 200 application/json; charset=utf-8 
+2018-07-25 14:07:56.9670|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/favicon.ico   
+2018-07-25 14:07:56.9670|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5467ms 404  
+2018-07-25 14:08:02.1703|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:08:02.2000|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.7498ms 200 text/html 
+2018-07-25 14:08:03.5217|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:08:03.8894|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 367.6582ms 200 application/json;charset=utf-8 
+2018-07-25 14:08:09.9561|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:08:09.9761|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:08:10.1284|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:08:10.1358||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 14:08:10.4018|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.1-rtm-30846 initialized 'ColorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2018-07-25 14:08:11.2284|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1097.9237ms. 
+2018-07-25 14:08:11.2428|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[SampleNetCoreWebApiTemplate.Model.ViewModel.UserViewModel, SampleNetCoreWebApiTemplate.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2018-07-25 14:08:11.2590|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 1280.9726ms 
+2018-07-25 14:08:11.2747|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1318.5715ms 200 application/json; charset=utf-8 
+2018-07-25 14:16:50.0140||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:16:51.3358||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:16:52.2685|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:16:52.2685|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:16:52.3318|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 59.7121ms 200  
+2018-07-25 14:16:52.6224|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:16:52.6549|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:16:52.6549|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6896ms. 
+2018-07-25 14:16:52.6766|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:16:52.6970|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 63.3781ms 
+2018-07-25 14:16:52.7144|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 446.8852ms 200 application/json; charset=utf-8 
+2018-07-25 14:16:52.7538|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/favicon.ico   
+2018-07-25 14:16:52.7587|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.5038ms 404  
+2018-07-25 14:16:58.7491|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:16:58.7792|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.0833ms 200 text/html 
+2018-07-25 14:16:59.3704|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:16:59.9387|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 568.299ms 200 application/json;charset=utf-8 
+2018-07-25 14:17:05.9211|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:17:05.9410|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:19:21.1967||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:19:22.5936||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:19:23.5828|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:19:23.5828|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:19:23.6498|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.8924ms 200  
+2018-07-25 14:19:23.9483|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:19:23.9611|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:19:23.9611|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.55ms. 
+2018-07-25 14:19:23.9784|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:19:23.9975|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 38.202ms 
+2018-07-25 14:19:24.0056|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 423.7706ms 200 application/json; charset=utf-8 
+2018-07-25 14:19:28.0307|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:19:28.0672|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.5661ms 200 text/html 
+2018-07-25 14:19:28.5297|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:19:28.8980|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 368.3601ms 200 application/json;charset=utf-8 
+2018-07-25 14:19:35.5296|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:19:35.5429|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:21:18.7165||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:21:20.2043||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:21:21.0256|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:21:21.0256|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:21:21.0996|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 71.6807ms 200  
+2018-07-25 14:21:21.3920|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:21:21.4054|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:21:21.4119|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5457ms. 
+2018-07-25 14:21:21.4119|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:21:21.4415|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 44.4553ms 
+2018-07-25 14:21:21.4641|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 440.2198ms 200 application/json; charset=utf-8 
+2018-07-25 14:21:24.5391|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:21:24.5700|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.8346ms 200 text/html 
+2018-07-25 14:21:25.1412|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:21:25.5134|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 372.1754ms 200 application/json;charset=utf-8 
+2018-07-25 14:21:30.1338|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:21:30.1500|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:22:19.4688||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:22:20.8392||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:22:21.7021|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:22:21.7021|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:22:21.7760|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.8168ms 200  
+2018-07-25 14:22:22.0538|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:22:22.0703|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:22:22.0703|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7345ms. 
+2018-07-25 14:22:22.0919|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:22:22.1121|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 44.9924ms 
+2018-07-25 14:22:22.1291|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 428.5552ms 200 application/json; charset=utf-8 
+2018-07-25 14:22:25.2981|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:22:25.3292|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.1305ms 200 text/html 
+2018-07-25 14:22:25.8225|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:22:26.2421|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 419.6049ms 200 application/json;charset=utf-8 
+2018-07-25 14:22:30.4720|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:22:30.4880|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:22:30.4902|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:25:12.8716||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:25:14.6466||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:25:15.6635|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:25:15.6635|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:25:15.7654|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.4793ms 200  
+2018-07-25 14:25:16.0248|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:25:16.0369|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:25:16.0369|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.593ms. 
+2018-07-25 14:25:16.0535|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:25:16.0750|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 37.8606ms 
+2018-07-25 14:25:16.0964|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 434.412ms 200 application/json; charset=utf-8 
+2018-07-25 14:25:18.9973|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:25:19.0361|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.8382ms 200 text/html 
+2018-07-25 14:25:20.0944|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:25:20.3834|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 289.0342ms 200 application/json;charset=utf-8 
+2018-07-25 14:25:25.4259|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:25:25.4471|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:25:48.7194||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 14:25:50.0641||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 14:25:51.0332|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 14:25:51.0332|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 14:25:51.1133|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77.6264ms 200  
+2018-07-25 14:25:51.3880|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 14:25:51.4036|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 14:25:51.4036|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7265ms. 
+2018-07-25 14:25:51.4239|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 14:25:51.4405|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 46.2701ms 
+2018-07-25 14:25:51.4553|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 423.9114ms 200 application/json; charset=utf-8 
+2018-07-25 14:25:54.4262|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 14:25:54.4711|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.879ms 200 text/html 
+2018-07-25 14:25:54.9259|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 14:25:55.2689|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 343.0308ms 200 application/json;charset=utf-8 
+2018-07-25 14:25:59.8152|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 14:25:59.8312|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:38:14.9814||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:38:16.5907||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:38:17.4689|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:38:17.4689|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:38:17.5633|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.7327ms 200  
+2018-07-25 16:38:17.8216|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:38:17.8341|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:38:17.8341|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5348ms. 
+2018-07-25 16:38:17.8519|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:38:17.8519|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 38.234ms 
+2018-07-25 16:38:17.8781|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 410.195ms 200 application/json; charset=utf-8 
+2018-07-25 16:38:26.7878|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:38:26.8218|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.0419ms 200 text/html 
+2018-07-25 16:38:28.0341|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:38:28.3334|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 299.3501ms 200 application/json;charset=utf-8 
+2018-07-25 16:38:34.2089|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:38:34.2089|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:39:21.4087||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:39:22.9751||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:39:23.8965|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:39:23.8965|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:39:24.0039|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.077ms 200  
+2018-07-25 16:39:24.2739|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:39:24.2739|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:39:24.2903|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.483ms. 
+2018-07-25 16:39:24.3046|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:39:24.3197|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 39.311ms 
+2018-07-25 16:39:24.3197|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 438.9358ms 200 application/json; charset=utf-8 
+2018-07-25 16:39:27.1769|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:39:27.2077|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.7894ms 200 text/html 
+2018-07-25 16:39:28.2619|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:39:28.5699|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 307.7062ms 200 application/json;charset=utf-8 
+2018-07-25 16:39:32.9450|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:39:32.9618|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:39:33.1444|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:39:33.1488||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 16:39:33.2799|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 316.5852ms 
+2018-07-25 16:39:41.6460||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27
+2018-07-25 16:39:47.3492|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14403.9328ms 500  
+2018-07-25 16:42:08.3493||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:42:09.7914||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:42:10.6759|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:42:10.6759|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:42:10.7687|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.3459ms 200  
+2018-07-25 16:42:11.0099|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:42:11.0214|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:42:11.0214|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4501ms. 
+2018-07-25 16:42:11.0214|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:42:11.0470|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 32.6592ms 
+2018-07-25 16:42:11.0639|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 389.6688ms 200 application/json; charset=utf-8 
+2018-07-25 16:42:15.8012|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:42:15.8297|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.5673ms 200 text/html 
+2018-07-25 16:42:16.9591|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:42:17.2697|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 310.678ms 200 application/json;charset=utf-8 
+2018-07-25 16:42:21.4191|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:42:21.4369|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:42:21.5706|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:42:21.5706||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 16:42:21.6946|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 256.9769ms 
+2018-07-25 16:42:24.1829||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27
+2018-07-25 16:43:26.8831|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65463.991ms 500  
+2018-07-25 16:43:36.5014|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:43:36.5168|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:43:36.5369|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:43:36.5377||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 16:43:36.5980|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 80.4285ms 
+2018-07-25 16:43:38.0451||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27
+2018-07-25 16:43:38.0451|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1550.3086ms 500  
+2018-07-25 16:45:18.2451||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:45:19.7300||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:45:20.4408|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:45:20.4408|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:45:20.5373|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 79.0966ms 200  
+2018-07-25 16:45:20.8018|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:45:20.8126|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:45:20.8126|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5093ms. 
+2018-07-25 16:45:20.8279|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:45:20.8409|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 34.5861ms 
+2018-07-25 16:45:20.8597|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 419.8377ms 200 application/json; charset=utf-8 
+2018-07-25 16:45:25.4660|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:45:25.4947|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.6505ms 200 text/html 
+2018-07-25 16:45:26.4871|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:45:26.8034|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 316.2521ms 200 application/json;charset=utf-8 
+2018-07-25 16:45:31.1940|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUserName   
+2018-07-25 16:45:31.2165|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUserName", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:45:31.3927|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:45:31.3996||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName 
+2018-07-25 16:45:31.6867|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.1-rtm-30846 initialized 'ColorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2018-07-25 16:45:32.4202|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1026.0909ms. 
+2018-07-25 16:45:32.4202|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2018-07-25 16:45:32.4366|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) in 1210.4195ms 
+2018-07-25 16:45:32.4524|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1258.4634ms 200 application/json; charset=utf-8 
+2018-07-25 16:47:11.3930||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:47:12.8428||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:47:13.6158|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:47:13.6158|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:47:13.7269|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 107.4093ms 200  
+2018-07-25 16:47:13.9749|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:47:13.9749|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:47:13.9749|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3996ms. 
+2018-07-25 16:47:14.0003|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:47:14.0144|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 34.5014ms 
+2018-07-25 16:47:14.0326|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 417.7296ms 200 application/json; charset=utf-8 
+2018-07-25 16:47:17.9314|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:47:17.9630|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.6046ms 200 text/html 
+2018-07-25 16:47:19.0665|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:47:19.4849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 418.411ms 200 application/json;charset=utf-8 
+2018-07-25 16:47:28.5708|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:47:28.5910|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:47:28.7728|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:47:28.7728||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 16:47:28.9263|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 334.104ms 
+2018-07-25 16:47:32.0816||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27
+2018-07-25 16:47:32.1602|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3589.4734ms 500 application/json 
+2018-07-25 16:48:19.9431|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUserName   
+2018-07-25 16:48:19.9779|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUserName", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:48:19.9779|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:48:19.9779||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName 
+2018-07-25 16:48:20.3015|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.1-rtm-30846 initialized 'ColorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2018-07-25 16:48:22.2687|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2288.532ms. 
+2018-07-25 16:48:22.2778|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2018-07-25 16:48:22.2778|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUserName (SampleNetCoreWebApiTemplate.WebApi) in 2303.8379ms 
+2018-07-25 16:48:22.2898|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2346.7819ms 200 application/json; charset=utf-8 
+2018-07-25 16:48:52.0375||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:48:53.4299||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:48:54.3778|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:48:54.3778|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:48:54.4585|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 79.4079ms 200  
+2018-07-25 16:48:54.7509|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:48:54.7610|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:48:54.7610|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4138ms. 
+2018-07-25 16:48:54.7767|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:48:54.7919|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 32.9421ms 
+2018-07-25 16:48:54.8123|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 435.9865ms 200 application/json; charset=utf-8 
+2018-07-25 16:48:58.3877|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:48:58.4183|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.8402ms 200 text/html 
+2018-07-25 16:48:59.1117|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:48:59.4368|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 325.0174ms 200 application/json;charset=utf-8 
+2018-07-25 16:49:12.7098|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:49:12.7269|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:49:12.8885|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:49:12.8885||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 16:49:12.9948|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 266.6659ms 
+2018-07-25 16:49:16.7423||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27
+2018-07-25 16:49:16.8066|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4096.7834ms 500 application/json; charset=utf-8 
+2018-07-25 16:50:01.1670||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main 
+2018-07-25 16:50:02.5671||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 16:50:03.4501|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 16:50:03.4501|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 16:50:03.5204|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.9863ms 200  
+2018-07-25 16:50:03.7914|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:50:03.7914|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:50:03.8074|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4489ms. 
+2018-07-25 16:50:03.8074|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 16:50:03.8304|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 34.1999ms 
+2018-07-25 16:50:03.8492|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 400.2278ms 200 application/json; charset=utf-8 
+2018-07-25 16:50:06.7797|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 16:50:06.8121|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.4036ms 200 text/html 
+2018-07-25 16:50:07.3833|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 16:50:07.7714|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 387.9896ms 200 application/json;charset=utf-8 
+2018-07-25 16:50:12.1366|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetAllUser   
+2018-07-25 16:50:12.1534|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetAllUser", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 16:50:12.2974|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 16:50:12.2974||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser 
+2018-07-25 16:50:12.4118|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser (SampleNetCoreWebApiTemplate.WebApi) in 257.379ms 
+2018-07-25 16:50:12.4142|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-25 16:50:12.5106|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 374.0215ms 500 text/html; charset=utf-8 
+2018-07-25 17:26:24.7231||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... 
+2018-07-25 17:26:26.3569||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\douxinyu.APJ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-07-25 17:26:27.2731|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:3467/  0 
+2018-07-25 17:26:27.2731|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/values   
+2018-07-25 17:26:27.3716|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.835ms 200  
+2018-07-25 17:26:27.6320|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 17:26:27.6320|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 17:26:27.6501|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6385ms. 
+2018-07-25 17:26:27.6501|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2018-07-25 17:26:27.6766|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController.Get (SampleNetCoreWebApiTemplate.WebApi) in 38.4167ms 
+2018-07-25 17:26:27.7003|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 428.5107ms 200 application/json; charset=utf-8 
+2018-07-25 17:26:31.8970|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/index.html   
+2018-07-25 17:26:31.9284|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.3506ms 200 text/html 
+2018-07-25 17:26:32.6636|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json   
+2018-07-25 17:26:33.0069|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 343.2982ms 200 application/json;charset=utf-8 
+2018-07-25 17:26:36.8114|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44318/api/Test/api/Test/GetException   
+2018-07-25 17:26:36.8278|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetException", controller = "Test"}. Executing action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetException (SampleNetCoreWebApiTemplate.WebApi) 
+2018-07-25 17:26:36.9899|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetException (SampleNetCoreWebApiTemplate.WebApi) - Validation state: Valid 
+2018-07-25 17:26:36.9979||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetException 
+2018-07-25 17:26:37.1076|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetException (SampleNetCoreWebApiTemplate.WebApi) in 278.8951ms 
+2018-07-25 17:26:37.1406||ERROR|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|test System.Exception: test
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetException() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 25
+2018-07-25 17:26:37.2152|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 403.828ms 500 application/json; charset=utf-8 

@@ -16,17 +16,12 @@ namespace SampleNetCoreWebApiTemplate.DataAccess
 
         public async Task<List<string>> GetUserNamesAsync()
         {
-            var result = new List<string>();
-
-            result = await _colorDbContext.SqlQueryAsync<string>("SELECT USERNAME FROM COLORDB.dbo.DCSECURITYUSER");
-
-            return result;
+            return await _colorDbContext.SqlQueryAsync<string>("SELECT USERNAME FROM COLORDB.dbo.DCSECURITYUSER");
         }
 
         public async Task<List<UserViewModel>> GetUserList()
         {
             return await _colorDbContext.SqlQueryAsync<UserViewModel>("SELECT ID,USERACCOUNT,USERNAME,ROLEID FROM COLORDB.dbo.DCSECURITYUSER");
-
         }
     }
 }

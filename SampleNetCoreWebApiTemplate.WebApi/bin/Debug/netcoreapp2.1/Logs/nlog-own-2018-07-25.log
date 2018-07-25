@@ -1,0 +1,204 @@
+2018-07-25 13:33:42.4958||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 13:34:12.6582|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Test/api/Test/GetAllUserName|action: GetAllUserName
+2018-07-25 13:50:33.3402||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 13:52:43.1741||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 13:52:57.7121||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|初始化完成 |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 13:53:56.0360||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 13:54:08.9802||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 14:06:44.0654||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:07:54.3853||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:08:10.1358||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 14:16:50.0140||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:19:21.1967||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:21:18.7165||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:22:19.4688||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:25:12.8716||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 14:25:48.7194||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:38:14.9814||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:39:21.4087||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:39:33.1488||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:39:41.6460||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27|url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:42:08.3493||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:42:21.5706||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:42:24.1829||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27|url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:43:36.5377||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:43:38.0451||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27|url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:45:18.2451||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:45:31.3996||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName |url: https://localhost/api/Test/api/Test/GetAllUserName|action: GetAllUserName
+2018-07-25 16:47:11.3930||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:47:28.7728||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:47:32.0816||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27|url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:48:19.9779||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName |url: https://localhost/api/Test/api/Test/GetAllUserName|action: GetAllUserName
+2018-07-25 16:48:52.0375||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:49:12.8885||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:49:16.7423||FATAL|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|123 System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 27|url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:50:01.1670||DEBUG|SampleNetCoreWebApiTemplate.WebApi.Program|init main |url: |action: 
+2018-07-25 16:50:12.2974||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 16:50:12.4142|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Exception: 123
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetAllUser() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-25 17:26:24.7231||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-25 17:26:36.9979||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetException |url: https://localhost/api/Test/api/Test/GetException|action: GetException
+2018-07-25 17:26:37.1406||ERROR|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|test System.Exception: test
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetException() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 25|url: https://localhost/api/Test/api/Test/GetException|action: GetException

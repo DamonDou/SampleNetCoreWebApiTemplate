@@ -54,7 +54,7 @@ namespace SampleNetCoreWebApiTemplate.DataAccess.Extend
                     {
                         while (await reader.ReadAsync())
                         {
-                            var model = Activator.CreateInstance(typeof(T), null);
+                            var model = Activator.CreateInstance(typeof(T));
 
                             foreach (var property in modelProperties)
                             {

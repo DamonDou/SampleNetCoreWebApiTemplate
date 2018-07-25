@@ -17,6 +17,7 @@ using SampleNetCoreWebApiTemplate.WebApi.SwaggerHelp;
 using SampleNetCoreWebApiTemplate.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
+using SampleNetCoreWebApiTemplate.WebApi.MiddleWare;
 
 namespace SampleNetCoreWebApiTemplate.WebApi
 {
@@ -73,12 +74,12 @@ namespace SampleNetCoreWebApiTemplate.WebApi
 
             // 依赖注册
 
-            // 每次请求时创建
+            // 每次从容器请求时都重新创建
             //services.AddTransient<IEmailSender, AuthMessageSender>();
 
             services.AddTransient<IDbSession,DbSession>();
 
-            // 每个请求一次的方式创建
+            // 每个Http请求创建一次的方式
             // services.AddScoped<IOperationScoped, Operation>();
 
             // 在第一次被请求 或者 ConfigureServices方法执行的时候被创建
@@ -128,7 +129,6 @@ namespace SampleNetCoreWebApiTemplate.WebApi
                     Type = "apiKey"
                 });
             });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -139,14 +139,17 @@ namespace SampleNetCoreWebApiTemplate.WebApi
         /// <param name="env"></param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseHsts();
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //else
+            //{
+            //    app.UseHsts();
+            //}
+
+            // 使用自定义的异常处理中间件
+            app.UseCustomerExceptionMiddleWare();
 
             app.UseStaticFiles();
 
