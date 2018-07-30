@@ -1,0 +1,37 @@
+2018-07-26 15:31:39.3217||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 15:32:55.5560||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-26 16:46:15.8094||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 16:46:30.6173||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-26 16:48:49.6544||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 16:49:02.4236||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-26 16:50:27.7255||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 16:50:39.1581||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-26 16:58:30.7881||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 16:58:42.1590||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUserName |url: https://localhost/api/Test/api/Test/GetAllUserName|action: GetAllUserName
+2018-07-26 16:59:11.8626||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetException |url: https://localhost/api/Test/api/Test/GetException|action: GetException
+2018-07-26 16:59:12.3663||ERROR|SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare|test System.Exception: test
+   at SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController.GetException() in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\Controllers\TestController.cs:line 43
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at SampleNetCoreWebApiTemplate.WebApi.MiddleWare.CustomerExceptionMiddleWare.InvokeAsync(HttpContext context) in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\MiddleWare\CustomerExceptionMiddleWare.cs:line 25|url: https://localhost/api/Test/api/Test/GetException|action: GetException
+2018-07-26 17:04:30.8886||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 17:04:54.7899||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-26 17:07:41.6360||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-26 17:08:06.3266||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser

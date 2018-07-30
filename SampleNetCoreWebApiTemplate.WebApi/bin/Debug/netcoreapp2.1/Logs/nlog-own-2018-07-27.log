@@ -1,0 +1,13 @@
+2018-07-27 15:57:35.6276||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 15:59:22.4103||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-27 16:01:02.3291||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 16:31:51.0655||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 16:35:09.0635||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-27 16:39:24.7514||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 16:40:15.7370||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser
+2018-07-27 16:42:19.7391||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 16:46:00.7018||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 16:50:20.4316||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 16:58:23.4763||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 17:02:49.3643||INFO|SampleNetCoreWebApiTemplate.WebApi.Program|服务开始启动... |url: |action: 
+2018-07-27 17:03:37.6275||INFO|SampleNetCoreWebApiTemplate.WebApi.Controllers.TestController|GetAllUser |url: https://localhost/api/Test/api/Test/GetAllUser|action: GetAllUser

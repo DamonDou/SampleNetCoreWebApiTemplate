@@ -136,3 +136,291 @@
 2018-07-25 17:26:24.4842 Info Adding target File Target[ownFile-web]
 2018-07-25 17:26:24.5053 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
 2018-07-25 17:26:24.5512 Info Found 45 configuration items
+2018-07-26 15:31:38.2843 Info Message Template Auto Format enabled
+2018-07-26 15:31:38.3500 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 15:31:38.6861 Info Adding target File Target[allfile]
+2018-07-26 15:31:38.8902 Info Adding target File Target[ownFile-web]
+2018-07-26 15:31:38.8902 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 15:31:38.9682 Info Found 45 configuration items
+2018-07-26 16:46:15.2832 Info Message Template Auto Format enabled
+2018-07-26 16:46:15.3086 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 16:46:15.6208 Info Adding target File Target[allfile]
+2018-07-26 16:46:15.6574 Info Adding target File Target[ownFile-web]
+2018-07-26 16:46:15.6767 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 16:46:15.7163 Info Found 45 configuration items
+2018-07-26 16:48:49.1778 Info Message Template Auto Format enabled
+2018-07-26 16:48:49.2002 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 16:48:49.4217 Info Adding target File Target[allfile]
+2018-07-26 16:48:49.4619 Info Adding target File Target[ownFile-web]
+2018-07-26 16:48:49.4866 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 16:48:49.5227 Info Found 45 configuration items
+2018-07-26 16:50:27.1838 Info Message Template Auto Format enabled
+2018-07-26 16:50:27.2053 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 16:50:27.3834 Info Adding target File Target[allfile]
+2018-07-26 16:50:27.4128 Info Adding target File Target[ownFile-web]
+2018-07-26 16:50:27.4321 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 16:50:27.4812 Info Found 45 configuration items
+2018-07-26 16:58:30.2377 Info Message Template Auto Format enabled
+2018-07-26 16:58:30.2728 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 16:58:30.5109 Info Adding target File Target[allfile]
+2018-07-26 16:58:30.5872 Info Adding target File Target[ownFile-web]
+2018-07-26 16:58:30.6273 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 16:58:30.6800 Info Found 45 configuration items
+2018-07-26 17:04:30.3904 Info Message Template Auto Format enabled
+2018-07-26 17:04:30.4221 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 17:04:30.6237 Info Adding target File Target[allfile]
+2018-07-26 17:04:30.6640 Info Adding target File Target[ownFile-web]
+2018-07-26 17:04:30.6795 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 17:04:30.7182 Info Found 45 configuration items
+2018-07-26 17:07:41.0449 Info Message Template Auto Format enabled
+2018-07-26 17:07:41.0706 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-26 17:07:41.3458 Info Adding target File Target[allfile]
+2018-07-26 17:07:41.3967 Info Adding target File Target[ownFile-web]
+2018-07-26 17:07:41.4187 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-26 17:07:41.4649 Info Found 45 configuration items
+2018-07-27 15:57:33.8672 Info Message Template Auto Format enabled
+2018-07-27 15:57:34.0285 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 15:57:35.0543 Info Adding target File Target[allfile]
+2018-07-27 15:57:35.1345 Info Adding target File Target[ownFile-web]
+2018-07-27 15:57:35.1942 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 15:57:35.2602 Info Found 45 configuration items
+2018-07-27 16:01:01.3689 Info Message Template Auto Format enabled
+2018-07-27 16:01:01.4050 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:01:01.9343 Info Adding target File Target[allfile]
+2018-07-27 16:01:02.0466 Info Adding target File Target[ownFile-web]
+2018-07-27 16:01:02.0754 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:01:02.1376 Info Found 45 configuration items
+2018-07-27 16:31:45.6563 Info Message Template Auto Format enabled
+2018-07-27 16:31:46.3357 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:31:49.3814 Info Adding target File Target[allfile]
+2018-07-27 16:31:49.5399 Info Adding target File Target[ownFile-web]
+2018-07-27 16:31:49.5811 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:31:50.0353 Info Found 45 configuration items
+2018-07-27 16:39:24.0850 Info Message Template Auto Format enabled
+2018-07-27 16:39:24.1189 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:39:24.3563 Info Adding target File Target[allfile]
+2018-07-27 16:39:24.4379 Info Adding target File Target[ownFile-web]
+2018-07-27 16:39:24.4605 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:39:24.5127 Info Found 45 configuration items
+2018-07-27 16:42:19.3475 Info Message Template Auto Format enabled
+2018-07-27 16:42:19.3747 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:42:19.5428 Info Adding target File Target[allfile]
+2018-07-27 16:42:19.5810 Info Adding target File Target[ownFile-web]
+2018-07-27 16:42:19.5968 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:42:19.6356 Info Found 45 configuration items
+2018-07-27 16:46:00.3242 Info Message Template Auto Format enabled
+2018-07-27 16:46:00.3478 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:46:00.5324 Info Adding target File Target[allfile]
+2018-07-27 16:46:00.5565 Info Adding target File Target[ownFile-web]
+2018-07-27 16:46:00.5683 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:46:00.5932 Info Found 45 configuration items
+2018-07-27 16:50:19.7374 Info Message Template Auto Format enabled
+2018-07-27 16:50:19.7597 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:50:19.9004 Info Adding target File Target[allfile]
+2018-07-27 16:50:19.9732 Info Adding target File Target[ownFile-web]
+2018-07-27 16:50:19.9968 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:50:20.0366 Info Found 45 configuration items
+2018-07-27 16:58:22.4798 Info Message Template Auto Format enabled
+2018-07-27 16:58:22.5039 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 16:58:22.6564 Info Adding target File Target[allfile]
+2018-07-27 16:58:22.6921 Info Adding target File Target[ownFile-web]
+2018-07-27 16:58:22.7194 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 16:58:22.7649 Info Found 45 configuration items
+2018-07-27 17:02:49.0196 Info Message Template Auto Format enabled
+2018-07-27 17:02:49.0388 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-27 17:02:49.1728 Info Adding target File Target[allfile]
+2018-07-27 17:02:49.2114 Info Adding target File Target[ownFile-web]
+2018-07-27 17:02:49.2272 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-27 17:02:49.2552 Info Found 45 configuration items
+2018-07-30 14:12:25.7225 Info Message Template Auto Format enabled
+2018-07-30 14:12:25.7915 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 14:12:26.6319 Info Adding target File Target[allfile]
+2018-07-30 14:12:27.9874 Info Adding target File Target[ownFile-web]
+2018-07-30 14:12:28.0075 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 14:12:28.0424 Info Found 45 configuration items
+2018-07-30 14:16:52.7113 Info Message Template Auto Format enabled
+2018-07-30 14:16:52.7807 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 14:16:53.0093 Info Adding target File Target[allfile]
+2018-07-30 14:16:53.0306 Info Adding target File Target[ownFile-web]
+2018-07-30 14:16:53.0426 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 14:16:53.0622 Info Found 45 configuration items
+2018-07-30 14:35:40.4959 Info Message Template Auto Format enabled
+2018-07-30 14:35:40.5093 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 14:35:40.6127 Info Adding target File Target[allfile]
+2018-07-30 14:35:40.6319 Info Adding target File Target[ownFile-web]
+2018-07-30 14:35:40.6424 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 14:35:40.6608 Info Found 45 configuration items
+2018-07-30 14:42:08.4155 Info Message Template Auto Format enabled
+2018-07-30 14:42:08.4345 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 14:42:08.5958 Info Adding target File Target[allfile]
+2018-07-30 14:42:08.6210 Info Adding target File Target[ownFile-web]
+2018-07-30 14:42:08.6327 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 14:42:08.6544 Info Found 45 configuration items
+2018-07-30 14:50:40.8558 Info Message Template Auto Format enabled
+2018-07-30 14:50:40.8936 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 14:50:41.0936 Info Adding target File Target[allfile]
+2018-07-30 14:50:41.1310 Info Adding target File Target[ownFile-web]
+2018-07-30 14:50:41.1510 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 14:50:41.1925 Info Found 45 configuration items
+2018-07-30 15:12:05.2897 Info Message Template Auto Format enabled
+2018-07-30 15:12:05.3206 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 15:12:05.5150 Info Adding target File Target[allfile]
+2018-07-30 15:12:05.5517 Info Adding target File Target[ownFile-web]
+2018-07-30 15:12:05.5802 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 15:12:05.6285 Info Found 45 configuration items
+2018-07-30 15:15:49.1319 Info Message Template Auto Format enabled
+2018-07-30 15:15:49.1529 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 15:15:49.2963 Info Adding target File Target[allfile]
+2018-07-30 15:15:49.3249 Info Adding target File Target[ownFile-web]
+2018-07-30 15:15:49.3407 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 15:15:49.3665 Info Found 45 configuration items
+2018-07-30 16:09:35.9342 Info Message Template Auto Format enabled
+2018-07-30 16:09:35.9576 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:09:36.1630 Info Adding target File Target[allfile]
+2018-07-30 16:09:36.1985 Info Adding target File Target[ownFile-web]
+2018-07-30 16:09:36.2191 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:09:36.2554 Info Found 45 configuration items
+2018-07-30 16:11:27.6621 Info Message Template Auto Format enabled
+2018-07-30 16:11:27.6864 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:11:27.9203 Info Adding target File Target[allfile]
+2018-07-30 16:11:27.9519 Info Adding target File Target[ownFile-web]
+2018-07-30 16:11:27.9691 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:11:27.9978 Info Found 45 configuration items
+2018-07-30 16:12:24.8754 Info Message Template Auto Format enabled
+2018-07-30 16:12:24.9022 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:12:25.0748 Info Adding target File Target[allfile]
+2018-07-30 16:12:25.1018 Info Adding target File Target[ownFile-web]
+2018-07-30 16:12:25.1018 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:12:25.1430 Info Found 45 configuration items
+2018-07-30 16:36:45.8957 Info Message Template Auto Format enabled
+2018-07-30 16:36:45.9172 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:36:46.1335 Info Adding target File Target[allfile]
+2018-07-30 16:36:46.1737 Info Adding target File Target[ownFile-web]
+2018-07-30 16:36:46.1939 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:36:46.2216 Info Found 45 configuration items
+2018-07-30 16:42:03.4164 Info Message Template Auto Format enabled
+2018-07-30 16:42:03.4463 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:42:03.7019 Info Adding target File Target[allfile]
+2018-07-30 16:42:03.7316 Info Adding target File Target[ownFile-web]
+2018-07-30 16:42:03.7427 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:42:03.8006 Info Found 45 configuration items
+2018-07-30 16:52:02.0369 Info Message Template Auto Format enabled
+2018-07-30 16:52:02.0675 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:52:02.2977 Info Adding target File Target[allfile]
+2018-07-30 16:52:02.3327 Info Adding target File Target[ownFile-web]
+2018-07-30 16:52:02.3557 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:52:02.3894 Info Found 45 configuration items
+2018-07-30 16:52:25.9949 Info Message Template Auto Format enabled
+2018-07-30 16:52:26.0208 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:52:26.2517 Info Adding target File Target[allfile]
+2018-07-30 16:52:26.2747 Info Adding target File Target[ownFile-web]
+2018-07-30 16:52:26.2935 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:52:26.3347 Info Found 45 configuration items
+2018-07-30 16:52:47.6113 Info Message Template Auto Format enabled
+2018-07-30 16:52:47.6291 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:52:47.7593 Info Adding target File Target[allfile]
+2018-07-30 16:52:47.7791 Info Adding target File Target[ownFile-web]
+2018-07-30 16:52:47.7909 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:52:47.8095 Info Found 45 configuration items
+2018-07-30 16:53:13.6308 Info Message Template Auto Format enabled
+2018-07-30 16:53:13.6597 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:53:13.9130 Info Adding target File Target[allfile]
+2018-07-30 16:53:13.9424 Info Adding target File Target[ownFile-web]
+2018-07-30 16:53:13.9581 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:53:13.9863 Info Found 45 configuration items
+2018-07-30 16:53:37.6189 Info Message Template Auto Format enabled
+2018-07-30 16:53:37.6657 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:53:37.8635 Info Adding target File Target[allfile]
+2018-07-30 16:53:37.8852 Info Adding target File Target[ownFile-web]
+2018-07-30 16:53:37.8852 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:53:37.9160 Info Found 45 configuration items
+2018-07-30 16:53:56.0969 Info Message Template Auto Format enabled
+2018-07-30 16:53:56.1250 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:53:56.3783 Info Adding target File Target[allfile]
+2018-07-30 16:53:56.4199 Info Adding target File Target[ownFile-web]
+2018-07-30 16:53:56.4477 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:53:56.5109 Info Found 45 configuration items
+2018-07-30 16:58:25.7100 Info Message Template Auto Format enabled
+2018-07-30 16:58:25.7452 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:58:25.9171 Info Adding target File Target[allfile]
+2018-07-30 16:58:25.9687 Info Adding target File Target[ownFile-web]
+2018-07-30 16:58:25.9687 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:58:26.0087 Info Found 45 configuration items
+2018-07-30 16:59:54.0335 Info Message Template Auto Format enabled
+2018-07-30 16:59:54.0614 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 16:59:54.3131 Info Adding target File Target[allfile]
+2018-07-30 16:59:54.3819 Info Adding target File Target[ownFile-web]
+2018-07-30 16:59:54.4019 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 16:59:54.4479 Info Found 45 configuration items
+2018-07-30 17:05:45.9074 Info Message Template Auto Format enabled
+2018-07-30 17:05:45.9511 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:05:46.3405 Info Adding target File Target[allfile]
+2018-07-30 17:05:46.4608 Info Adding target File Target[ownFile-web]
+2018-07-30 17:05:46.4775 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:05:46.5088 Info Found 45 configuration items
+2018-07-30 17:09:25.9478 Info Message Template Auto Format enabled
+2018-07-30 17:09:25.9938 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:09:26.3378 Info Adding target File Target[allfile]
+2018-07-30 17:09:26.3955 Info Adding target File Target[ownFile-web]
+2018-07-30 17:09:26.4141 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:09:26.4482 Info Found 45 configuration items
+2018-07-30 17:12:29.6450 Info Message Template Auto Format enabled
+2018-07-30 17:12:29.6816 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:12:29.9036 Info Adding target File Target[allfile]
+2018-07-30 17:12:29.9433 Info Adding target File Target[ownFile-web]
+2018-07-30 17:12:29.9693 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:12:30.0174 Info Found 45 configuration items
+2018-07-30 17:13:36.1951 Info Message Template Auto Format enabled
+2018-07-30 17:13:36.2319 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:13:36.4065 Info Adding target File Target[allfile]
+2018-07-30 17:13:36.4259 Info Adding target File Target[ownFile-web]
+2018-07-30 17:13:36.4382 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:13:36.4563 Info Found 45 configuration items
+2018-07-30 17:16:50.0869 Info Message Template Auto Format enabled
+2018-07-30 17:16:50.1117 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:16:50.3071 Info Adding target File Target[allfile]
+2018-07-30 17:16:50.4021 Info Adding target File Target[ownFile-web]
+2018-07-30 17:16:50.4226 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:16:50.4656 Info Found 45 configuration items
+2018-07-30 17:21:36.9039 Info Message Template Auto Format enabled
+2018-07-30 17:21:36.9257 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:21:37.1653 Info Adding target File Target[allfile]
+2018-07-30 17:21:37.1901 Info Adding target File Target[ownFile-web]
+2018-07-30 17:21:37.2012 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:21:37.2227 Info Found 45 configuration items
+2018-07-30 17:24:28.2424 Info Message Template Auto Format enabled
+2018-07-30 17:24:28.2647 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:24:28.4637 Info Adding target File Target[allfile]
+2018-07-30 17:24:28.4980 Info Adding target File Target[ownFile-web]
+2018-07-30 17:24:28.5335 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:24:28.5870 Info Found 45 configuration items
+2018-07-30 17:26:16.9400 Info Message Template Auto Format enabled
+2018-07-30 17:26:16.9701 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:26:17.1919 Info Adding target File Target[allfile]
+2018-07-30 17:26:17.2478 Info Adding target File Target[ownFile-web]
+2018-07-30 17:26:17.2695 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:26:17.3146 Info Found 45 configuration items
+2018-07-30 17:28:33.0636 Info Message Template Auto Format enabled
+2018-07-30 17:28:33.1112 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:28:33.3463 Info Adding target File Target[allfile]
+2018-07-30 17:28:33.3930 Info Adding target File Target[ownFile-web]
+2018-07-30 17:28:33.4110 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:28:33.4470 Info Found 45 configuration items
+2018-07-30 17:39:31.6887 Info Message Template Auto Format enabled
+2018-07-30 17:39:31.7154 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:39:31.9506 Info Adding target File Target[allfile]
+2018-07-30 17:39:31.9938 Info Adding target File Target[ownFile-web]
+2018-07-30 17:39:32.0213 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:39:32.0632 Info Found 45 configuration items
+2018-07-30 17:39:44.2358 Info Message Template Auto Format enabled
+2018-07-30 17:39:44.2487 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:39:44.3221 Info Adding target File Target[allfile]
+2018-07-30 17:39:44.3221 Info Adding target File Target[ownFile-web]
+2018-07-30 17:39:44.3373 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:39:44.3539 Info Found 45 configuration items
+2018-07-30 17:41:13.5353 Info Message Template Auto Format enabled
+2018-07-30 17:41:13.5563 Info Loading assembly: NLog.Web.AspNetCore
+2018-07-30 17:41:13.9934 Info Adding target File Target[allfile]
+2018-07-30 17:41:14.1170 Info Adding target File Target[ownFile-web]
+2018-07-30 17:41:14.1546 Info Configured from an XML element in F:\资料\项目模板\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate\SampleNetCoreWebApiTemplate.WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-07-30 17:41:14.2050 Info Found 45 configuration items

@@ -1,0 +1,11 @@
+1. 性能日志
+2. JWT 
+3. consule 
+4. api网关
+5. docker部署
+6. nlog 将日志记录到数据库
+7. Nginx
+8. IdentityServer4
+9. aspectnetcore
+10.权限控制
+11.GraphQL

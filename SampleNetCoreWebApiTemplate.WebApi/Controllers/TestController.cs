@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SampleNetCoreWebApiTemplate.DataAccess;
 using SampleNetCoreWebApiTemplate.Model.ViewModel;
+using SampleNetCoreWebApiTemplate.WebApi.Filter;
 
 namespace SampleNetCoreWebApiTemplate.WebApi.Controllers
 {
@@ -18,6 +20,7 @@ namespace SampleNetCoreWebApiTemplate.WebApi.Controllers
 
         [HttpGet]
         [Route("api/[controller]/GetAllUserName")]
+        [UnFormatResult]
         public async Task<List<string>> GetAllUserName()
         {
             Logger.LogInformation("GetAllUserName");
@@ -26,10 +29,21 @@ namespace SampleNetCoreWebApiTemplate.WebApi.Controllers
 
         [HttpGet]
         [Route("api/[controller]/GetAllUser")]
+        [FormatResult]
+        [Authorize]
         public async Task<List<UserViewModel>> GetAllUser()
         {
             Logger.LogInformation("GetAllUser");
             return await DbSession.GetUserList();
+        }
+
+        [HttpPost]
+        [Route("api/[controller]/AddUser")]
+        [FormatResult]
+        public string AddUser([FromBody] UserViewModel user)
+        {
+
+            return "";
         }
 
         [HttpGet]

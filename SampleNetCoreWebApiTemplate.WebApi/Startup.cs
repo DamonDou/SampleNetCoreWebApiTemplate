@@ -18,6 +18,9 @@ using SampleNetCoreWebApiTemplate.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using SampleNetCoreWebApiTemplate.WebApi.MiddleWare;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace SampleNetCoreWebApiTemplate.WebApi
 {
@@ -72,12 +75,28 @@ namespace SampleNetCoreWebApiTemplate.WebApi
             // 获取配置文件中链接字符串，待验证会不会根据环境变量加载不同配置
             services.AddDbContext<ColorDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultDBConnectString")));
 
+            //添加jwt验证：
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,//是否验证Issuer
+                        ValidateAudience = true,//是否验证Audience
+                        ValidateLifetime = true,//是否验证失效时间
+                        ValidateIssuerSigningKey = true,//是否验证SecurityKey
+                        ValidAudience = Configuration["ValidAudience"],//Audience
+                        ValidIssuer = Configuration["ValidIssuer"],//Issuer，这两项和前面签发jwt的设置一致
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey"]))//拿到SecurityKey
+                    };
+                });
+
             // 依赖注册
 
             // 每次从容器请求时都重新创建
             //services.AddTransient<IEmailSender, AuthMessageSender>();
 
-            services.AddTransient<IDbSession,DbSession>();
+            services.AddTransient<IDbSession, DbSession>();
 
             // 每个Http请求创建一次的方式
             // services.AddScoped<IOperationScoped, Operation>();
@@ -85,7 +104,29 @@ namespace SampleNetCoreWebApiTemplate.WebApi
             // 在第一次被请求 或者 ConfigureServices方法执行的时候被创建
             // services.AddSingleton<IOperationSingleton, Operation>();
 
+            // 使用内存缓存，通过IMemoryCache 注入
+            services.AddMemoryCache();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            // 使用时通过依赖注入IHttpClientFactory 使用
+            services.AddHttpClient();
+
+            // 需要在自定义组件中访问HttpContext时 需要使用以下方式注入，在构造函数中注入IHttpContextAccessor类型的对象
+            // services.AddHttpContextAccessor();
+
+            // 启用跨域
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllRequests",
+                    builders =>
+                    {
+                        builders.AllowAnyOrigin();
+                        builders.AllowAnyHeader();
+                        builders.AllowAnyMethod();
+                    });
+            }
+            );
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
@@ -162,6 +203,22 @@ namespace SampleNetCoreWebApiTemplate.WebApi
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
                 c.RoutePrefix = string.Empty;
             });
+
+            app.UseCors("AllowAllRequests");
+
+            var IsEnableTraceLog = string.IsNullOrEmpty(Configuration["IsEnableTraceLog"]) ? false : bool.Parse(Configuration["IsEnableTraceLog"]);
+
+            if (IsEnableTraceLog)
+            {
+                app.UseTraceLogMiddleWare();
+            }
+
+            var isEnableJWT = string.IsNullOrEmpty(Configuration["IsEnableJWT"]) ? false : bool.Parse(Configuration["IsEnableJWT"]);
+
+            if (isEnableJWT)
+            {
+                app.UseAuthentication();
+            }            
 
             app.UseMvc();
         }

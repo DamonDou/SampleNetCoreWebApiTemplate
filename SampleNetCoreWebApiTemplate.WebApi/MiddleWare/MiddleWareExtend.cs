@@ -9,5 +9,10 @@ namespace SampleNetCoreWebApiTemplate.WebApi.MiddleWare
         {
             app.UseMiddleware<CustomerExceptionMiddleWare>();
         }
+
+        public static void UseTraceLogMiddleWare(this IApplicationBuilder app)
+        {
+            app.UseMiddleware<TraceLogMiddleWare>();
+        }
     }
 }

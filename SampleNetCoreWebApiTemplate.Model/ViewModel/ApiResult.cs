@@ -15,7 +15,7 @@ namespace SampleNetCoreWebApiTemplate.Model.ViewModel
         /// <summary>
         ///  数据
         /// </summary>
-        public string Data { get; set; }
+        public object Data { get; set; }
 
         /// <summary>
         ///  强制提交标识

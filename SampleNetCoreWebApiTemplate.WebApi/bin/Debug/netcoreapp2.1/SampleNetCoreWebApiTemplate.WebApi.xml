@@ -4,6 +4,15 @@
         <name>SampleNetCoreWebApiTemplate.WebApi</name>
     </assembly>
     <members>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Controllers.AuthenticationController.ValidateUser(SampleNetCoreWebApiTemplate.Model.ViewModel.RequstTokenUserModel)">
+            <summary>
+             验证用户名密码是否有效，需要根据系统逻辑实现。
+            </summary>
+            <param name="userModel">用户对象</param>
+            <returns>
+             验证通过返回true,否则返回false
+            </returns>
+        </member>
         <member name="T:SampleNetCoreWebApiTemplate.WebApi.Controllers.ValuesController">
             <summary>
              示例
@@ -48,6 +57,12 @@
              删除数据
             </summary>
             <param name="id"></param>
+        </member>
+        <member name="M:SampleNetCoreWebApiTemplate.WebApi.Filter.FormatResultAttribute.FormateResult(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+             格式化结果
+            </summary>
+            <param name="context">上下文</param>
         </member>
         <member name="T:SampleNetCoreWebApiTemplate.WebApi.Program">
             <summary>
